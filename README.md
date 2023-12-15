@@ -44,8 +44,7 @@
 - Chain Reaction - each block’s encryption depends on the previous block. This means that a change in one block affects all subsequent blocks, both in encryption and decryption.
 - The repeated rounds and combination of operations provide strong resistance against various cryptographic attacks, including brute force attacks, though the effort to crack AES increases exponentially with key size.
 
-https://www.google.com/url?sa=i&url=https%3A%2F%2Falicegg.tech%2F2019%2F06%2F23%2Faes-cbc.html&psig=AOvVaw2i5sOBy5FtJTPFiesrkTF4&ust=1702725282067000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJjgro-okYMDFQAAAAAdAAAAABAQ![image](https://github.com/keshavrathinavel/Effects-of-Compression-and-Encryption-on-Medical-Images/assets/73035121/b0476909-634d-4fb5-8be6-0d32d76de1e6)
-
+![bit_flipping](https://github.com/keshavrathinavel/Effects-of-Compression-and-Encryption-on-Medical-Images/assets/73035121/32c300cf-a187-4fbc-a1ea-8740a29c4849)
 
 ```python
 from cryptography.fernet import Fernet
@@ -119,17 +118,17 @@ def compress_image(image_path, output_path, quality):
 
 ### Before LR Plateau and Early Stopping Callback
 
-![Untitled](Effects%20of%20Compression%20and%20Encryption%20on%20Images%207a6c853b89ab4fb3980a998db4b7ca34/Untitled%205.png)
+<img width="476" alt="Untitled 5" src="https://github.com/keshavrathinavel/Effects-of-Compression-and-Encryption-on-Medical-Images/assets/73035121/a9859c70-66f7-45d2-b1f3-beb90b56236d">
 
-![Untitled](Effects%20of%20Compression%20and%20Encryption%20on%20Images%207a6c853b89ab4fb3980a998db4b7ca34/Untitled%206.png)
+<img width="478" alt="Untitled 6" src="https://github.com/keshavrathinavel/Effects-of-Compression-and-Encryption-on-Medical-Images/assets/73035121/07464537-e9e0-4907-9785-0c3e6999893e">
 
 ### After LR Plateau and Early Stopping Callback
 
-![raw_after_tuning.png](Effects%20of%20Compression%20and%20Encryption%20on%20Images%207a6c853b89ab4fb3980a998db4b7ca34/raw_after_tuning.png)
+![raw_after_tuning](https://github.com/keshavrathinavel/Effects-of-Compression-and-Encryption-on-Medical-Images/assets/73035121/42a05622-3b4d-437a-873d-184c98ff94bf)
 
-![raw_plots_after_tuning.png](Effects%20of%20Compression%20and%20Encryption%20on%20Images%207a6c853b89ab4fb3980a998db4b7ca34/raw_plots_after_tuning.png)
+![raw_plots_after_tuning](https://github.com/keshavrathinavel/Effects-of-Compression-and-Encryption-on-Medical-Images/assets/73035121/cf3e4b6a-a94c-4941-a86f-d95942b71516)
 
-![raw_bar_graph.png](Effects%20of%20Compression%20and%20Encryption%20on%20Images%207a6c853b89ab4fb3980a998db4b7ca34/raw_bar_graph.png)
+![raw_bar_graph](https://github.com/keshavrathinavel/Effects-of-Compression-and-Encryption-on-Medical-Images/assets/73035121/48fe348e-49c1-45df-86e8-cc90a55fa42f)
 
 ******Tabulated Results******
 
@@ -151,13 +150,13 @@ def compress_image(image_path, output_path, quality):
 
 ### Before LR Plateau and Early Stopping Callback
 
-![img.png](Effects%20of%20Compression%20and%20Encryption%20on%20Images%207a6c853b89ab4fb3980a998db4b7ca34/img.png)
+![img](https://github.com/keshavrathinavel/Effects-of-Compression-and-Encryption-on-Medical-Images/assets/73035121/f9058c09-25b9-47f3-a79e-cc8d7b43bc57)
 
 ### After LR Plateau and Early Stopping Callback
 
-![after_tuning.png](Effects%20of%20Compression%20and%20Encryption%20on%20Images%207a6c853b89ab4fb3980a998db4b7ca34/after_tuning.png)
+![after_tuning](https://github.com/keshavrathinavel/Effects-of-Compression-and-Encryption-on-Medical-Images/assets/73035121/9b89539d-7b3a-4b2a-8a45-5a552d1d2753)
 
-![after_tuning_with_ensemble.png](Effects%20of%20Compression%20and%20Encryption%20on%20Images%207a6c853b89ab4fb3980a998db4b7ca34/after_tuning_with_ensemble.png)
+![after_tuning_with_ensemble](https://github.com/keshavrathinavel/Effects-of-Compression-and-Encryption-on-Medical-Images/assets/73035121/c99fa46c-e19b-45d4-bd93-9b16ed21f0b0)
 
 **********************************Tabulated Results**********************************
 
@@ -170,7 +169,7 @@ def compress_image(image_path, output_path, quality):
 
 ### Highest Accuracy and Lowest Loss
 
-![high_low_after_tuning.png](Effects%20of%20Compression%20and%20Encryption%20on%20Images%207a6c853b89ab4fb3980a998db4b7ca34/high_low_after_tuning.png)
+![high_low_after_tuning](https://github.com/keshavrathinavel/Effects-of-Compression-and-Encryption-on-Medical-Images/assets/73035121/c7e42702-56fc-4f59-8f1c-d27a7f29491a)
 
 ### Learnings
 
