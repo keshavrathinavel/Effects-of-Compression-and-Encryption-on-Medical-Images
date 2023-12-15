@@ -44,7 +44,7 @@
 - Chain Reaction - each block’s encryption depends on the previous block. This means that a change in one block affects all subsequent blocks, both in encryption and decryption.
 - The repeated rounds and combination of operations provide strong resistance against various cryptographic attacks, including brute force attacks, though the effort to crack AES increases exponentially with key size.
 
-![Untitled](Effects%20of%20Compression%20and%20Encryption%20on%20Images%207a6c853b89ab4fb3980a998db4b7ca34/Untitled.png)
+![Untitled](https://github.com/keshavrathinavel/Effects-of-Compression-and-Encryption-on-Medical-Images/assets/73035121/61f57762-8eb2-4114-a13c-c6fe5ba19471)
 
 ```python
 from cryptography.fernet import Fernet
@@ -78,7 +78,7 @@ def decrypt_image(input_file, output_file, key):
 
 **************Padding************** - The `data` is then padded to ensure its size is a multiple of the AES block size (16 bytes). This is necessary because AES is a block cipher that operates on fixed-size blocks of data.
 
-![Untitled](Effects%20of%20Compression%20and%20Encryption%20on%20Images%207a6c853b89ab4fb3980a998db4b7ca34/Untitled%201.png)
+<img width="556" alt="Untitled 1" src="https://github.com/keshavrathinavel/Effects-of-Compression-and-Encryption-on-Medical-Images/assets/73035121/e42241b0-0e8e-485a-ac65-8e8364edf931">
 
 # Pillow (PIL)
 
@@ -86,15 +86,15 @@ def decrypt_image(input_file, output_file, key):
 
 - **Lossy Compression:** JPEG is a popular format that uses lossy compression.
 - **Discrete Cosine Transform (DCT):** It transforms spatial domain data (pixels) into frequency domain data.
-    
-    ![Untitled](Effects%20of%20Compression%20and%20Encryption%20on%20Images%207a6c853b89ab4fb3980a998db4b7ca34/Untitled%202.png)
+
+  <img width="722" alt="Untitled 2" src="https://github.com/keshavrathinavel/Effects-of-Compression-and-Encryption-on-Medical-Images/assets/73035121/87359bb1-a8c1-4199-92e4-28f1a6ca4cce">
     
 - **Quantization:** After DCT, the coefficients are quantised to reduce the precision of the high-frequency components, which is less noticeable to the human eye.
 - **Entropy Encoding:** Finally, the quantised values are compressed using Huffman coding or arithmetic coding.
 
-![Untitled](Effects%20of%20Compression%20and%20Encryption%20on%20Images%207a6c853b89ab4fb3980a998db4b7ca34/Untitled%203.png)
+<img width="804" alt="Untitled 3" src="https://github.com/keshavrathinavel/Effects-of-Compression-and-Encryption-on-Medical-Images/assets/73035121/4217073f-5f56-4a16-89ba-dbfefaf442d3">
 
-![Untitled](Effects%20of%20Compression%20and%20Encryption%20on%20Images%207a6c853b89ab4fb3980a998db4b7ca34/Untitled%204.png)
+![Untitled 4](https://github.com/keshavrathinavel/Effects-of-Compression-and-Encryption-on-Medical-Images/assets/73035121/48ab7718-7bb1-453f-b34a-5a8dd7d627ef)
 
 ```python
 from PIL import Image
