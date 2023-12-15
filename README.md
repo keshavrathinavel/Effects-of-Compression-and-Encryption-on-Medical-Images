@@ -44,7 +44,8 @@
 - Chain Reaction - each block’s encryption depends on the previous block. This means that a change in one block affects all subsequent blocks, both in encryption and decryption.
 - The repeated rounds and combination of operations provide strong resistance against various cryptographic attacks, including brute force attacks, though the effort to crack AES increases exponentially with key size.
 
-![Untitled](https://github.com/keshavrathinavel/Effects-of-Compression-and-Encryption-on-Medical-Images/assets/73035121/61f57762-8eb2-4114-a13c-c6fe5ba19471)
+https://www.google.com/url?sa=i&url=https%3A%2F%2Falicegg.tech%2F2019%2F06%2F23%2Faes-cbc.html&psig=AOvVaw2i5sOBy5FtJTPFiesrkTF4&ust=1702725282067000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJjgro-okYMDFQAAAAAdAAAAABAQ![image](https://github.com/keshavrathinavel/Effects-of-Compression-and-Encryption-on-Medical-Images/assets/73035121/b0476909-634d-4fb5-8be6-0d32d76de1e6)
+
 
 ```python
 from cryptography.fernet import Fernet
@@ -55,7 +56,8 @@ from Crypto.Util.Padding import pad, unpad
 # Key used for encryption
 key = get_random_bytes(16)
 
-def encrypt_image(input_file, output_file, key):
+def encrypt![image](https://github.com/keshavrathinavel/Effects-of-Compression-and-Encryption-on-Medical-Images/assets/73035121/4177190c-0a5c-45da-92c2-efca27948666)
+_image(input_file, output_file, key):
     print("Encrypting files")
     cipher = AES.new(key, AES.MODE_CBC)
     with open(input_file, 'rb') as f_in:
